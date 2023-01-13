@@ -22,33 +22,47 @@
 
 // 4.Дане ціле число. З'ясувати, чи є воно простим (простим називається число, більше 1, які не мають інших дільників крім 1 і себе).
 
-let N = Number(prompt('Enter your number'));
-let isPrime = true;
+// const num = Number(prompt('Enter your number'));
+// let isPrime = true;
 
-if (Number.isInteger(N)) {
-    if (N <= 0) {
-        console.log('Number is non-positive')
-    } if (N == 1) {
-        console.log('Number is 1')
-    }
-    else if (N > 1) {
-        for (let i = 2; i < N; i++) {
-            if (N % i === 0) {
-                isPrime = false;
-                break;
-            }
-        }
-        if (isPrime) {
-            console.log(`${N} is a prime number`)
-        } else {
-            console.log(`${N} is a non-prime number`)
-        } 
-    } 
-} else {
-    console.log('Number is non-integer')
-}
+// if (Number.isInteger(num)) {
+//     if (num == 1) {
+//         console.log('Number is 1');
+//     }
+//     else if (num > 1) {
+//         for (let i = 2; i < num; i++) {
+//             if (num % i === 0) {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         if (isPrime) {
+//             console.log(`${num} is a prime number`);
+//         } else {
+//             console.log(`${num} is a non-prime number`);
+//         } 
+//     } else {
+//         console.log(`${num} is a non-prime number`);
+//     }
+// } else {
+//     console.log('Number is non-integer, enter an integer');
+// }
 
 // 5.Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна).
 
+// const num = Number(prompt('Enter your number'));
+// let isYes = false;
+
+// for(let i = 0;i <= num;i++) {
+//     if(num === Math.pow(3 , i)) {
+//         isYes = true;
+//         break;
+//     }
+// }
+// if(isYes) {
+//     console.log('Yes, we can')
+// } else {
+//     console.log('No, we cant')
+// }
 
 
