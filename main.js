@@ -12,7 +12,7 @@
 
 // 3.Дане ціле число. Вивести всі цілі числа від 1 до 100, квадрат яких не перевищує числа N.
 
-// let N = prompt('Enter your number');
+// let N = Number(prompt('Enter your number'));
 
 // for(let i = 1;i <= N;i++) {
 //     if(i ** 2 <= N) {
@@ -51,7 +51,7 @@
 // 5.Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна).
 
 // const num = Number(prompt('Enter your number'));
-// let isYes = false;
+// let weCan = false;
 
 // for(let i = 0;i <= num;i++) {
 //     if(num === Math.pow(3 , i)) {
