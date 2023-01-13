@@ -55,11 +55,11 @@
 
 // for(let i = 0;i <= num;i++) {
 //     if(num === Math.pow(3 , i)) {
-//         isYes = true;
+//         weCan = true;
 //         break;
 //     }
 // }
-// if(isYes) {
+// if(weCan) {
 //     console.log('Yes, we can')
 // } else {
 //     console.log('No, we cant')
